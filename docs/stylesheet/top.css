@@ -12,6 +12,10 @@
 }
 
 .page-header__title {
+  text-transform: lowercase;
+  font-family: "Arial";
+  font-size: 48px;
+  color: white;
   min-width: 300px;
   width: 40%;
 }
@@ -31,6 +35,8 @@
 }
 
 .category {
+	display: flex;
+  justify-content: flex-end;
   max-width: 1120px;
   margin: auto;
   margin-top: 40px;
